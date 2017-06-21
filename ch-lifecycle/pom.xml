@@ -9,4 +9,16 @@
   <version>0.8-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Lifecycle Chapter Parent Project</name>
+<distributionManagement>
+	<repository>
+	<id>releases</id>
+	<name>releases</name>
+	<url>http://54.212.234.9:8082/nexus-2.14.4-03/content/repositories/releases/</url>
+	</repository>
+	<snapshotRepository>
+	<id>snapshots</id>
+	<name>snapshots</name>
+	<url>http://54.212.234.9:8082/nexus-2.14.4-03/content/repositories/snapshots/</url>
+	</snapshotRepository>
+</distributionManagement>
 </project>
